@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+
+.first-section{
+    display: flex;
+    }
+    
+h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size:35px ;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.first-p{
+width: 400px;
+font-size: 20px;
+text-align: justify;
+margin-bottom: 30px;
+
+}
+.link{
+text-decoration: none;
+width: 200px;
+height: 60px;
+background-color:tomato ;
+color: white;
+padding: 12px 25px;
+border-radius: 5px;
+font-size: 20px;
+
+}
+
+
+.child-div{
+border-left: 2px solid red;
+}
+
+.second-p{
+margin-top: 30px;
+}
+
+.first-img{
+    width: 500px;
+    height:550px;
+   
+}
+
+.first-div{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.second-div{
+    width: 50%;
+}
+
+
+
+.highlight{
+    text-align: center;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   color: black;
+}
+
+.highlight span{
+    color: orange;
+}
+
+
+
+.second-img{
+    width: 200px;
+    height: 200px;
+}
+
+.box{
+    padding: 18px;
+box-shadow:10px 10px 40px gray ;
+border-radius: 5px;
+width: 42%;
+margin-right: 4%;
+margin-left: 4%;
+
+}
+
+.box h2{
+    color: black;
+    font-weight: 600;
+}
+
+.bg-image4{
+
+background: #6fd5ee59;
+
+
+}
+
+.bg-image5{
+ background:#e2bc9a82 ;
+
+}
+.bg-image6{
+    background:#a9dd796b ;
+}
+
+
+
+.demo{
+
+ 
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 120px;
+}
+
+.demo1{
+    width: 50%;
+    margin-top: 120px;
+}
+
+.demo1 h1{
+
+    margin-bottom: 25px;
+
+}
+
+.demo1 p{
+    margin-bottom: 30px; 
+width: 580px;
+}
+
+.project-img{
+    width: 400px;
+    height: 400px;
+}
+
+.pragh{
+    margin-bottom: 50px;
+}
+
+.demo2{
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+.demo3{
+width: 50%;
+
+margin-top: 100px;
+margin-left: 200px;
+
+}
+
+.demo2 h1{
+    margin-bottom: 25px;
+}
+
+.demo2 p{
+    width: 580px;
+    margin-bottom: 30px; 
+}
+
+footer{
+    background: black;
+ 
+    text-align: center;
+    color: white;
+}
+
+.light h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.light h1 span {
+    color: tomato;
+}
+footer p{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
