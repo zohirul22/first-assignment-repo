@@ -1,53 +1,52 @@
-*{
+body{
     margin: 0;
 }
+
+/*****first section start*****/
 
 .first-section{
     display: flex;
     }
-    
-h1{
+ 
+
+.child-div h1{
     font-size: 50px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black ;
+    font-family: 'EB Garamond', serif;
+    margin-left: 10px;
 }
-h2{
-    font-size:35px ;
+
+.child-div h2{
+    font-size: 35px;
     color: orange;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 20px;
+    margin-left: 10px;
 }
+
+.child-div{
+    border-left: 3px solid blue;
+    padding-right: 10px;
+    }
+
 .first-p{
-width: 400px;
-font-size: 20px;
+width: 550px;
+font-size:25px;
 text-align: justify;
 margin-bottom: 30px;
 
 }
-.link{
-text-decoration: none;
-width: 200px;
-height: 60px;
-background-color:tomato ;
-color: white;
-padding: 12px 25px;
-border-radius: 5px;
-font-size: 20px;
-
-}
 
 
-.child-div{
-border-left: 2px solid red;
-}
+
 
 .second-p{
 margin-top: 30px;
+font-size: 20px;
 }
 
 .first-img{
     width: 500px;
     height:550px;
+    margin-left: 50px;
    
 }
 
@@ -60,21 +59,38 @@ margin-top: 30px;
 .second-div{
     width: 50%;
 }
+/*****first section end*****/
 
 
+/*****all link start*****/
+.link{
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:tomato ;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    }
 
+/*****all link end*****/
+
+
+/******second section start*****/
 .highlight{
     text-align: center;
    margin-top: 40px;
    margin-bottom: 30px;
    color: black;
+   font-size: 50px;
 }
 
 .highlight span{
     color: orange;
 }
-
-
 
 .second-img{
     width: 200px;
@@ -92,30 +108,34 @@ margin-left: 4%;
 }
 
 .box h2{
-    color: black;
+    color: rgb(33, 11, 231);
     font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.box p{
+font-size: 25px;
+text-align: justify;
 }
 
 .bg-image4{
-
 background: #6fd5ee59;
-
-
 }
 
 .bg-image5{
  background:#e2bc9a82 ;
-
 }
+
 .bg-image6{
     background:#a9dd796b ;
 }
 
+/******second section end*****/
 
 
+/******third section start*****/
 .demo{
-
- 
   width: 50%;
   margin-left: 70px;
   margin-top: 120px;
@@ -127,14 +147,16 @@ background: #6fd5ee59;
 }
 
 .demo1 h1{
-
+    font-size: 50px;
     margin-bottom: 25px;
-
+    font-weight: bolder;
 }
 
 .demo1 p{
     margin-bottom: 30px; 
-width: 580px;
+    width: 550px;
+    font-size: 25px;
+    text-align: justify;
 }
 
 .project-img{
@@ -142,55 +164,126 @@ width: 580px;
     height: 400px;
 }
 
-.pragh{
-    margin-bottom: 50px;
-}
+/******third section end*****/
 
+
+/******four section start*****/
 .demo2{
     width: 50%;
     margin-left: 70px;
     margin-top: 120px;
 }
 
-.demo3{
-width: 50%;
-
-margin-top: 100px;
-margin-left: 200px;
-
-}
-
 .demo2 h1{
     margin-bottom: 25px;
+    font-size: 50px;
+  font-weight: bolder;
 }
+
 
 .demo2 p{
-    width: 580px;
-    margin-bottom: 30px; 
+ margin-bottom: 50px;
+font-size: 25px;
+width: 650px;
+text-align: justify;
 }
 
-footer{
-    background: black;
+.demo3{
+width: 50%;
+margin-top: 100px;
+margin-left: 150px;
+margin-bottom: 50px;
+}
+
+/******four section end*****/
+
+
+
+/******team section start*****/
+
+.team-section{
+    margin-bottom: 100px; 
+ }
  
+.team-content{
+   margin-bottom: 50px;
+}
+
+.team-content h1{
+    margin-bottom:10px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;  
+}
+
+.team-content h1 span{
+    color:green ;
+}
+
+.team-content p{
+font-size: 25px;
+font-family: unset;
+width: 800px;
+text-align: justify; 
+margin-left: 300px;
+}
+
+.team-img{
+   width: 200px;
+   height: 200px; 
+}
+
+.team-div{
+    padding: 30px;
+    box-shadow:10px 10px 40px gray ;
+    border-radius: 5px;
+    width: 42%;
+    margin-right: 4%;
+    margin-left: 4%;
     text-align: center;
+}
+
+.team-div h2{
+   color: green;
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+.team-div h3{
+font-size: 25px;
+color: black;
+font-size: 25px;
+}
+
+
+/******team section end*****/
+
+
+
+/******footer section start*****/
+.foot{
+background-color: black;
+text-align: center;
+color: white;
+
+
+}
+
+.foot p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.footer-less{
     color: white;
+    font-family: 'EB Garamond', serif;
+}
+.footer-less span{
+    color: orangered;
 }
 
-.light h1{
-    color: white;
-    margin-bottom: 10px;
-}
-
-.light h1 span {
-    color: tomato;
-}
-footer p{
-  font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-
+/******footer section end*****/
 
 
 
